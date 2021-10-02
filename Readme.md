@@ -8,7 +8,11 @@
 6. Utilize o comando git add 'nome do arquivo' para adicionar um arquivo na área de stage (local onde os arquivos ficam antes de serem enviados para o ambiente )
 7. Para verificar se deu certo - git status (note se o arquivo consta em 'Changes to be committed')
 8. Agora vamos incluir as mudanças feitas com o comando git commit -m "cria"
+9. Para linkar suas alterações no GitHub crie um novo repositório e utilize os seguintes comandos git remote add origin "https://github.com/username/Projectname.git" (você precisará logar no GitHub para autorizar a ligação)
 9. Criar uma nova branch - utilize o comando git checkout -b "nome_novabranch"
 10. Utilizar os comandos normalmente: git add . (para adicionar os arquivos alterados) e git status para verificar a inclusão
 11. git commit -m "alterações_2"
 12. git push origin nome da branch
+13. git checkout main - para voltar para a branch principal
+14. git merge "nome da branch que você quer incluir" - para enviar as alteraçõs para a branch main
+15. git push origin main
