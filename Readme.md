@@ -9,4 +9,6 @@
 7. Para verificar se deu certo - git status (note se o arquivo consta em 'Changes to be committed')
 8. Agora vamos incluir as mudanças feitas com o comando git commit -m "cria"
 9. Criar uma nova branch - utilize o comando git checkout -b "nome_novabranch"
-10.  
+10. Utilizar os comandos normalmente: git add . (para adicionar os arquivos alterados) e git status para verificar a inclusão
+11. git commit -m "alterações_2"
+12. git push origin nome da branch
